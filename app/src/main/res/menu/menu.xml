@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one1"
+        android:title="@string/string_add" />
+    <item
+        android:id="@+id/one2"
+        android:title="@string/string_delete"/>
+    <item
+        android:id="@+id/one5"
+        android:title="@string/string_order"/>
+    <item
+        android:id="@+id/one6"
+        android:title="@string/string_put">
+        <menu>
+            <item
+                android:id="@+id/export"
+                android:title="@string/string_export"/>
+            <item
+                android:id="@+id/inport"
+                android:title="@string/string_inport"/>
+        </menu>
+        </item>
+
+</menu>
